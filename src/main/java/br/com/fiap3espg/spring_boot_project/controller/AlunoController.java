@@ -1,5 +1,9 @@
-package br.com.fiap3espg.spring_boot_project.aluno;
+package br.com.fiap3espg.spring_boot_project.controller;
 
+import br.com.fiap3espg.spring_boot_project.aluno.Aluno;
+import br.com.fiap3espg.spring_boot_project.aluno.AlunoRepository;
+import br.com.fiap3espg.spring_boot_project.aluno.DadosCadastroAluno;
+import br.com.fiap3espg.spring_boot_project.aluno.DadosListagemAluno;
 import br.com.fiap3espg.spring_boot_project.instrutor.Instrutor;
 import br.com.fiap3espg.spring_boot_project.instrutor.InstrutorRepository;
 import jakarta.validation.Valid;
